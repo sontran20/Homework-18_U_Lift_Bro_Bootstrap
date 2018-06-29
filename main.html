@@ -1,0 +1,89 @@
+<!-- This activity is meant to help you identify the grid being used on a webpage. In order to reverse engineer a site, which we will do later, you should be able to look at a page, see it's breakpoints and replicate them with code -->
+<!-- MUY IMPORTANTE DOCUMENTATION PLZ READ -->
+<!-- https://getbootstrap.com/docs/4.0/layout/overview/ DOCUMENTATION FOR BOOTSTRAP GRID SYSTEMS-->
+<!-- https://getbootstrap.com/docs/3.3/css/ DOCUMENTATION FOR CREATING BOOTSTRAP LAYOUTS -->
+
+<!--
+Open Questions
+HTML:
+1. Where is the best location to put the background image? Should it be in body as shown below?
+<body class="background"> When placed in sm-col-9 it doesn't work. 
+CSS:
+1. How come images folder has to be in CSS folder to be called correctly?
+2. How come border-width: 5px; has no effect on the border of the buttons?
+3. How come the font properties set for H6 and other Headers no longer work?
+
+-->
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <title>U Lift Bro</title>
+
+</head>
+
+<body class="background">
+
+  <h6>U Lift Bro? BODY</h6>
+
+
+  <div class="container">
+    <div class="row">
+        <!-- Defines column which contains the logo along with all the navigation buttons-->
+        <div class="col-sm-3 btn-group-vertical">
+          <img src="icons/logo.svg" class="icon">
+          <a class="btn" href="#"><span>Workout</span></a>
+          <a class="btn" href="#"><span>Nutrition</span></a>
+          <a class="btn" href="#"><span>Build Mass</span></a>
+          <a class="btn" href="#"><span>Get Cut</span></a>
+          <a class="btn" href="#"><span>Videos</span></a>
+        </div>
+
+        <!-- Defines main content section for header and the body content listing the exercises and tips -->
+        <div class="col-sm-9">
+            <h6>U Lift Bro?</h6>
+        </div>
+    </div>
+  </div>
+
+
+  <!-- //Code defining medium and large format designs.
+    <div class="container">
+    <h1>Medium Layout for Tablets</h1>
+    <div class="row">
+      <div class="col-md-1 pink"></div>
+      <div class="col-md-3 red"></div>
+      <div class="col-md-4 yellow"></div>
+      <div class="col-md-4 green"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1> Large Layout for Laptops</h1>
+    <div class="row">
+      <div class="col-lg-1 pink"></div>
+      <div class="col-lg-3 red"></div>
+      <div class="col-lg-4 yellow"></div>
+      <div class="col-lg-4 green"></div>
+    </div>
+  </div> -->
+</body>
+
+</html>
