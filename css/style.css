@@ -1,9 +1,7 @@
 
-
-.header{
-    height: 150px;
-    text-align: center;
-}
+body{
+        background-color: #101010;
+  }
 
 body, html {
     height: 100%;
@@ -11,7 +9,7 @@ body, html {
 
 .background
 {
-  background-image: url("images/inspiration.jpg");
+  background-image: url("../images/inspiration_opacity.jpg");
 
   /* Full height */
    height: 100%;
@@ -21,18 +19,6 @@ body, html {
    background-repeat: no-repeat;
    background-size: cover;
 }
-
-
-.main{
-  /* height:400px;  Height is set is iPhone size which is 812x3 for retina displays
-     Header height of 150 is subtracted
-  */
-  height:662px;
-}
-
-body{
-        background-color: #101010;
-  }
 
 
 h1{
@@ -62,14 +48,14 @@ h4{
   color:#ccb87e;
   font-family: "Stencil", serif;
   font-weight: normal;
-  font-size: 55px;
+  font-size: 30px;
 }
 
 h5{
   color:#ccb87e;
   font-family: "Stencil", serif;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 h6{
@@ -116,15 +102,6 @@ p,li{
     z-index: 2;
     /* display: flex;
     justify-content: center; */
-}
-
-.my-flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.my-flex h6 {
-  padding-top: 50px;
 }
 
 .btn:hover {
