@@ -10,7 +10,7 @@ body, html {
 .background
 {
   background-image: url("../images/inspiration_opacity.jpg");
-
+  background-attachment: fixed;
   /* Full height */
    height: 100%;
 
